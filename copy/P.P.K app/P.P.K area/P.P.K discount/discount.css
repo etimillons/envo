@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: 0px;
+          box-sizing: 0px;
+}
+
+body {
+  background-image: url(bgc.jpeg);
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title h2 {
+  text-align: center;
+  font-weight: bolder;
+  position: relative;
+  top: 130px;
+  color: black;
+}
+
+.form {
+  background-color: aqua;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin-top: 140px;
+  margin-left: 38.2%;
+  border-radius: 30px;
+}
+
+.form .formv input {
+  margin-top: 10px;
+  margin-left: 20%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.form .formv button {
+  margin-top: 15px;
+  margin-left: 35%;
+  border-radius: 5px;
+  background-color: yellow;
+  font-weight: bolder;
+  border-color: yellow;
+}
+
+.form .formv .text {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.form .formv span button {
+  height: 30px;
+}
+
+.form .formv .img img {
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.form .formv .img2 {
+  margin-top: -180px;
+}
+
+.form .formv .img2 img {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  margin-left: 200px;
+}
+/*# sourceMappingURL=discount.css.map */

@@ -48,16 +48,26 @@ body {
 }
 
 .hero header .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   color: white;
   width: 50%;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .hero header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .hero header .nav .logo {
@@ -70,9 +80,12 @@ body {
 
 .hero header .nav-list {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .hero header .nav-list .nav-item {
@@ -92,14 +105,22 @@ body {
 }
 
 .hero .banner_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 700px;
 }
 
 .hero .banner_inner .left {
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero .banner_inner .left_wrapper {
@@ -126,9 +147,15 @@ body {
 
 .hero .banner_inner .right {
   background: #02250A;
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero .banner_inner .right_wrapper {
@@ -153,3 +180,128 @@ body {
   bottom: 0;
   right: 134px;
 }
+
+.crisis .crise {
+  background-color: #02250A;
+  margin: 93px;
+  height: 635px;
+  width: 552px;
+  position: absolute;
+}
+
+.crisis .crisisleft {
+  position: relative;
+  width: 552px;
+  height: 635px;
+  margin: 63px;
+  position: relative;
+  top: 58px;
+}
+
+.crisisright {
+  position: relative;
+  width: 572px;
+  height: 199px;
+  left: 650px;
+  bottom: 528px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.reports {
+  background-color: #02250A;
+  margin-top: 150px;
+  height: 800px;
+  width: 100%;
+  margin: 5px;
+}
+
+.reports h2 {
+  color: white;
+  position: relative;
+  font-weight: 700;
+  font-size: 48px;
+  top: 56px;
+  margin: 63px;
+}
+
+.reports .white-line {
+  background-color: white;
+  width: 110px;
+  height: 11px;
+  margin: 63px;
+}
+
+.reports .group-pictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.reports .reports1 {
+  background-color: white;
+  width: 300px;
+  height: 424px;
+  left: 78px;
+  bottom: px;
+  border-radius: 8px;
+}
+
+.reports .reports1 img {
+  width: 276px;
+  height: 207px;
+  border-radius: 8px;
+  padding: 11px 12px 0px 12px;
+}
+
+.reports .btnwhite {
+  position: relative;
+  left: 530px;
+  margin-top: 30px;
+}
+
+.happening img {
+  margin: -10px;
+}
+
+.happening h2 {
+  position: relative;
+  top: 42px;
+  margin: 83px;
+  width: 705px;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.happening .happeningpictures {
+  position: relative;
+  left: 30px;
+  height: 514px;
+}
+
+.footer {
+  height: 92px;
+  color: white;
+  background-color: #02250A;
+  position: relative;
+  top: 105px;
+  text-align: center;
+}
+
+.footer p {
+  position: relative;
+  top: 43px;
+}
+
+.footer span {
+  position: relative;
+  font-weight: 700;
+  font-size: 16px;
+}
+/*# sourceMappingURL=index.css.map */

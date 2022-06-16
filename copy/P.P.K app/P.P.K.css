@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: aqua;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  text-align: center;
+  color: blue;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+header h1 {
+  position: relative;
+  bottom: 10px;
+}
+
+.container {
+  background-color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 30px;
+  width: 1180px;
+  position: fixed;
+  height: 565px;
+  top: 5px;
+}
+
+.container .activity .happy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .activity .happy h2 {
+  font-size: 30px;
+  position: relative;
+  top: 70px;
+  margin-left: 30px;
+}
+
+.container .activity .happy h2 span {
+  color: blue;
+}
+
+.container .activity .happy .img {
+  position: relative;
+}
+
+.container .activity .happy .img img {
+  position: relative;
+  bottom: 0px;
+  right: 20px;
+}
+
+.container .activity p {
+  position: relative;
+  bottom: 270px;
+  line-height: 20px;
+  margin-left: 30px;
+  width: 300px;
+}
+
+.container .activity .btn button {
+  margin-left: 30px;
+  position: relative;
+  bottom: 260px;
+  height: 40px;
+  background-color: yellow;
+  color: red;
+  border-radius: 30px;
+  border-color: yellow;
+  font-weight: bolder;
+}
+
+.container .activity .icons .fa-person-swimming {
+  position: relative;
+  bottom: 260px;
+  left: 50px;
+  color: aqua;
+}
+
+.container .activity .icons .fa-table-tennis-paddle-ball {
+  position: relative;
+  bottom: 500px;
+  left: 150px;
+  color: orange;
+}
+
+.container .activity .icons .fa-face-grin-squint-tears {
+  position: relative;
+  bottom: 550px;
+  left: 350px;
+  color: #f3da35;
+}
+
+.container .activity .icons .fa-person-biking {
+  position: relative;
+  bottom: 400px;
+  left: 50px;
+  color: grey;
+}
+
+.container .activity .icons .fa-film {
+  position: relative;
+  bottom: 300px;
+  left: 960px;
+}
+
+.container .activity .icons .fa-vr-cardboard {
+  position: relative;
+  bottom: 600px;
+  left: 450px;
+}
+
+.container .activity .icons .fa-basketball {
+  position: relative;
+  bottom: 600px;
+  left: 850px;
+  color: #ee6730;
+}
+
+.container .activity .icons .fa-gamepad {
+  position: relative;
+  bottom: 200px;
+  right: 70px;
+}
+
+.container .activity .icons .fa-person-running {
+  position: relative;
+  bottom: 160px;
+  left: 450px;
+  color: grey;
+}
+
+.container .activity .icons .fa-pizza-slice {
+  position: relative;
+  bottom: 200px;
+  color: red;
+}
+
+.container .activity .icons .fa-champagne-glasses {
+  position: relative;
+  bottom: 400px;
+  left: 30px;
+  color: gold;
+}
+
+.container .activity .icons .fa-camera {
+  position: relative;
+  bottom: 250px;
+  left: 150px;
+}
+
+.container .activity .icons .fa-apple-whole {
+  position: relative;
+  bottom: 450px;
+  color: #8db600;
+  left: 170px;
+}
+/*# sourceMappingURL=P.P.K.css.map */

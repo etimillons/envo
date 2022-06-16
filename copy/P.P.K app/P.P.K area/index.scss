@@ -1,0 +1,70 @@
+* 
+{
+    margin:  0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+body 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container 
+{
+    background-color: yellow;
+    line-height: 30px;
+    margin: 30px;
+    border-radius: 30px;
+    height: 500px;
+    position: fixed;
+    .title 
+    {
+        left: 300px;
+        position: relative;
+        top: 30px;
+    }
+    .prices
+    {
+        position: relative;
+        top: 60px;
+        margin: 30px;
+        h2 
+        {
+            text-decoration: underline 7px red;
+        }
+        .list 
+        {
+            position: relative;
+            top: 10px;
+            display: flex;
+            img 
+            {
+                width: 500px;
+                height: 500px;
+                position: relative;
+                left: 30px;
+                bottom: 160px;
+                border-radius: 0 0 30px 0;
+            }
+        }
+        .disbutton 
+        {
+            position: relative;
+            bottom: 370px;
+            button 
+            {
+                border-radius: 30px;
+                height: 35px;
+                background-color: aqua;
+                font-weight: bolder;
+                border-color: aqua;
+            }
+        }
+        .gif 
+        {
+            position: relative;
+            bottom: 600px;
+            left: 670px;
+    
+        }
+    }
+}

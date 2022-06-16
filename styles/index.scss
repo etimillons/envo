@@ -138,3 +138,138 @@ body {
     }
   }
 }
+
+.crisis {
+
+  .crise{
+    background-color: $primary;
+    margin: 93px;
+    height: 635px;
+    width: 552px;
+    position: absolute;
+  
+
+  }
+
+  .crisisleft {
+    position: relative;
+    width: 552px;
+    height: 635px;
+    margin: 63px;
+    position: relative;
+    top: 58px;
+  }
+}
+
+.crisisright {
+  position: relative;
+  width: 572px;
+  height: 199px;
+  left: 650px;
+  bottom: 528px;
+
+
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+
+
+}
+
+.reports {
+  background-color: $primary;
+  margin-top: 150px;
+  height: 800px;
+  width: 100%;
+  margin: 5px;
+  
+
+  h2 {
+    color: white;
+    position: relative;
+    font-weight: 700;
+    font-size: 48px;
+    top: 56px;
+    margin: 63px;
+  }
+
+  .white-line {
+    background-color: white;
+    width: 110px;
+    height: 11px;
+    margin: 63px;
+  }
+  
+  .group-pictures {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  // background: #02250A;
+
+  .reports1 {
+    background-color: white;
+    // position: relative;
+    width: 300px;
+    height: 424px;
+    left: 78px;
+    bottom: px;
+    border-radius: 8px;
+
+    img {
+      width: 276px;
+      height: 207px;
+      border-radius: 8px;
+      padding: 11px 12px 0px 12px;
+    }
+  }
+  .btnwhite{
+    position: relative;
+    left: 530px;
+    margin-top: 30px;
+
+  } 
+  
+}
+
+.happening{
+  
+  img{
+    margin: -10px;
+  }
+ h2{
+   position: relative;
+   top: 42px;
+   margin: 83px;
+   width: 705px;
+   font-weight: 700;
+   font-size: 48px;
+ }
+ .happeningpictures{
+  position: relative;
+  left: 30px;
+  height: 514px;
+ }
+}
+.footer{
+  height: 92px;
+  color: white;
+  background-color:$primary ;
+  position: relative;
+  top: 105px;
+  text-align: center;
+  p{
+    position: relative;
+    top: 43px;
+  }
+  span{
+    position: relative;
+    font-weight: 700;
+    font-size: 16px;
+  }
+}
